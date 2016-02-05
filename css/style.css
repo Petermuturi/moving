@@ -1,0 +1,32 @@
+* {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+.main {
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center; }
+
+#logo {
+  font-family: 'Lobster', cursive !important;
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  text-transform: uppercase; }
+
+.nav {
+  float: right;
+  padding-top: 10px; }
+
+.nav li {
+  list-style: none;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.nav li a {
+  font-size: 20px;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
