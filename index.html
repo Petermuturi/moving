@@ -15,6 +15,7 @@
    <link rel="stylesheet" type="text/css" href="animation/animate.css">
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/scroll.js"></script>
 </head>
 <body>
   <div class="main">
@@ -23,15 +24,15 @@
 <a href="#" class="go-top">Back to top</a>
   	<!-- nav -->
   	<div class="row">
-  		<div class="large-1 medium-1 columns">.</div>
-  		<div class="large-5 medium-5 columns">
+  		<div class="large-1 medium-1 small-1 columns null">.</div>
+  		<div class="large-5 medium-5 small-5 columns">
   			<p id="logo">Move</p>
   		</div>
-  		<div class="large-6 medium-6 columns">
+  		<div class="large-6 medium-6 small-6 columns">
   			<ul class="nav">
-  				<li><a href="#!">About</a></li>
-  				<li><a href="#!">Contact</a></li>
-  				<li><a href="#!">Sign in</a></li>
+  				<li><a href="#about">About</a></li>
+  				<li><a href="#contact">Contact</a></li>
+  				<li><a href="#sign">Sign in</a></li>
   			</ul>
   		</div>
   	</div>
@@ -42,13 +43,103 @@
   	</div>
   <!-- learn more -->
   <div class="more">
-  	<a href="learn" class="learn">Learn more</a>
+  	<a href="learn" class="learn">START NOW</a>
   </div>
 </div>
   </div>
-<svg id="tri" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+<svg id="tri" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
     <path d="M0 100 C40 0 60 0 100 100 Z" />
 </svg>
+<!-- about -->
+<div id="about">
+<!-- arrow -->
+  <p class="arrrow"><i class="fa fa-arrows-alt"></i></p>
+  <!-- line -->
+   <hr class="hr"/>
+   <!-- about -->
+   <div class="row">
+   <p class="tt cent">Move</p>
+     <div class=" cent large-6 medium-6 columns">
+       <p class="ts">Become more active by tracking your runs,<br>
+          rides, and walks. 
+       </p>
+     </div>
+      <div class="cent large-6 medium-6 columns zero">
+       <img class="up" src="assets/move.jpg">
+     </div>
+   </div>
+   <!-- end of row 1 -->
+     <!-- line -->
+   <hr class="hr"/>
+      <div class="row">
+   <p class="tt cent">Sync</p>
+     <div class="cent large-6 medium-6 columns zero">
+       <img class="up" src="assets/sync.jpg">
+     </div>
+      <div class="cent large-6 medium-6 columns">       
+       <p class="ts">Access your activity on your phone, tablet,<br>
+         or computer. 
+       </p>
+     </div>
+   </div>
+   <!-- end of row 2 -->
+    <!-- line -->
+   <hr class="hr"/>
+   <div class="row">
+   <p class="tt cent">Compete</p>
+     <div class=" cent large-6 medium-6 columns">
+       <p class="ts">Set personal challenges and see how you<br>
+          rank against your friends.
+       </p>
+     </div>
+      <div class="cent large-6 medium-6 columns zero">
+       <img class="up" src="assets/compete.jpg">
+     </div>
+   </div>
+   <!-- end of row 3 -->
+</div>
+<!-- end pf about -->
+<svg id="dwn" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path d="M0 0 C 50 100 80 100 100 0 Z" />
+</svg>
+<div class="cont2">
+<div class="colr">
+  <p class="tent">Move.rest.recover.move.</p>
+  </div>
+</div>
+<!-- separator -->
+<svg id="tri" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path d="M0 100 C40 0 60 0 100 100 Z" />
+</svg>
+<div id="contact">
+  <p class="arrrow"><i class="fa fa-arrows-alt"></i></p>
+  <!-- line -->
+   <hr class="hr"/>
+    <p class="tt cent">Contact</p>
+    <div class="row">
+       <div class="large-2 medium-2 columns null">.</div>
+       <div class="large-7 medium-7 small-7 columns">
+           <form>
+              <div class="row">
+    <div class="large-6 columns">
+      <label>Name:
+        <input type="text" placeholder="Enter your name" />
+      </label>
+    </div>
+    <div class="large-6 columns">
+      <label>Email
+        <input type="text" placeholder="Enter your Email address" />
+      </label>
+    </div>
+  </div>
+  <label>Message:
+        <textarea></textarea>
+      </label>
+          </form>
+       </div>
+       <div class="large-3 medium-3 columns null">.</div>
+    </div>
+</div>
       <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
